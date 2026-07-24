@@ -1,0 +1,1 @@
+pip install transformers accelerate bitsandbytes vllm --default-timeout=1000 -i https://pypi.tuna.tsinghua.edu.cn/simple

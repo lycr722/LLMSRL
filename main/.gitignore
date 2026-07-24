@@ -1,0 +1,13 @@
+# Generated Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and editor state
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Model checkpoints exceed GitHub's regular Git file-size limit
+*.safetensors
