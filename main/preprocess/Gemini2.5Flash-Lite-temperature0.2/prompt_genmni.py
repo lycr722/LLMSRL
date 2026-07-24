@@ -37,9 +37,7 @@ from tqdm import tqdm
 # Process finished with exit code 0
 
 # =========================================================
-GEMINI_API_KEY = "sk-zk249ad191da5206f1ca5d3e7e6fc9bc527683091ad9c28b"
 MODEL_NAME = "gemini-2.5-flash-lite"
-API_URL = f"https://api.zhizengzeng.com/google/v1beta/models/{MODEL_NAME}:generateContent"
 
 HEADERS = {
     "Content-Type": "application/json"
