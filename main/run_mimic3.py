@@ -33,7 +33,7 @@ if __name__ == "__main__":
     # parser.add_argument('--num_layers', type=int, default=4, help='The number of cross-attention blocks')
     parser.add_argument('--num_layers', type=int, default=2, help='The number of cross-attention blocks')
     parser.add_argument('--alpha', type=float, default=0.08, help='The balancing factor for the DDI loss')
-    parser.add_argument('--seed', type=int, default=622768884, help='Random seed for data split and training')
+    parser.add_argument('--seed', type=int, default=, help='Random seed for data split and training')
     parser.add_argument('--lr', type=float, default=4e-5, help='Learning rate')
     parser.add_argument('--epochs', type=int, default=50, help='The number of training epochs')
     parser.add_argument('--batch_size', type=int, default=256, help='The batch size for training')
@@ -51,11 +51,7 @@ if __name__ == "__main__":
     parser.add_argument('--refresh_cache', type=bool, default=True, help='Whether to refresh the cached dataset files')
 
     args = parser.parse_args()
-    # seed = args.seed
-    seed = 2276774680
-    # seed = 128
-    # seed = generate_random_seed()
-    # seed = 3781333324
+    seed = generate_random_seed()
     set_seed(seed)
 
     # 2) 修正 GRU hidden size：若用户未指定，则用 embedding_dim
