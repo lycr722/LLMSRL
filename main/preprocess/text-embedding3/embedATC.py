@@ -12,8 +12,6 @@ OUTPUT_FILE = "MIMIC3_Drug_Embeddings_768_HCLFinal_RAG.csv"     # 输出文件
 MODEL_NAME = "text-embedding-3-large"
 EMBEDDING_DIM = 768
 BATCH_SIZE = 32
-API_URL = "https://api.zhizengzeng.com/v1/embeddings"
-OPENAI_API_KEY = "sk-zk249ad191da5206f1ca5d3e7e6fc9bc527683091ad9c28b"
 
 HEADERS = {
     "Content-Type": "application/json",
