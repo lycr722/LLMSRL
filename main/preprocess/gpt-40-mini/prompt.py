@@ -13,8 +13,6 @@ from tqdm import tqdm  # 使用标准tqdm
 VOCAB_CACHE_PATH = "official_vocabs.pkl"
 
 # API 设置
-API_URL = "https://api.zhizengzeng.com/v1/chat/completions"
-OPENAI_API_KEY = "sk-zk249ad191da5206f1ca5d3e7e6fc9bc527683091ad9c28b"  # 您的 API Key
 HEADERS = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + OPENAI_API_KEY
