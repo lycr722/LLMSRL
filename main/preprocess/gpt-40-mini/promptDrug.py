@@ -12,8 +12,6 @@ INPUT_CSV       = "mimic3_drugs_mapping.csv"       # your ATC list with ATC colu
 OUTPUT_CSV      = "MIMIC3_Drug_Descriptions_ID_HCLFinal.csv" # filled descriptions
 NDC_ATC_MAP_CSV = "ndc_atc_map_level3.csv"     # must contain ATC and NDC columns
 
-API_URL         = "https://api.zhizengzeng.com/v1/chat/completions"
-OPENAI_API_KEY  = "sk-zk249ad191da5206f1ca5d3e7e6fc9bc527683091ad9c28b"  # your key here
 HEADERS = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {OPENAI_API_KEY}"
