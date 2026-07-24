@@ -12,8 +12,6 @@ OUTPUT_FILE = "PROCEDURES_Constrained_Embedding_512.csv"
 MODEL_NAME = "text-embedding-3-small"  # Or "text-embedding-3-large" for higher quality
 EMBEDDING_DIM = 512  # Recommended to match LAMRec's internal dimension
 BATCH_SIZE = 32  # Process 32 descriptions per API call
-API_URL = "https://api.zhizengzeng.com/v1/embeddings"
-OPENAI_API_KEY = "sk-zk249ad191da5206f1ca5d3e7e6fc9bc527683091ad9c28b"  # <-- Replace with your key
 
 HEADERS = {
     "Content-Type": "application/json",
