@@ -5,9 +5,9 @@ import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-DEFAULT_SEED = 622768884
+DEFAULT_SEED = 
 DEFAULT_DATASET_PATH = r"D:\Code\LAMRec-RAGBK\mimic-iii-1.4\zip"
-DEFAULT_OUTPUT_SUBDIR = "cold_start_experiment_622768884"
+DEFAULT_OUTPUT_SUBDIR = "cold_start_experiment"
 
 # Keep PyHealth/model cache writes inside this project instead of the user profile.
 PROJECT_ROOT = Path(__file__).resolve().parent
