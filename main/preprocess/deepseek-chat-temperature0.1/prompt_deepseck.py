@@ -8,9 +8,7 @@ from tqdm import tqdm
 # =========================================================
 # 基础配置
 # =========================================================
-DEEPSEEK_API_KEY = "sk-zk249ad191da5206f1ca5d3e7e6fc9bc527683091ad9c28b"
 MODEL_NAME = "deepseek-chat"
-API_URL = "https://api.zhizengzeng.com/v1/chat/completions"
 
 HEADERS = {
     "Content-Type": "application/json",
